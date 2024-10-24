@@ -7,6 +7,7 @@
 library(plotly)
 library(treemapify)
 library(ggplot2)
+library(dplyr)
 
 
 ggplot(G20, aes(area = gdp_mil_usd, fill = hdi)) +
