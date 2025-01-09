@@ -13,7 +13,7 @@ library(dplyr)
 ggplot(G20, aes(area = gdp_mil_usd, fill = hdi)) +
   geom_treemap()
 
-
+kldjflksjdf
 
 p <- ggplot(G20, aes(area = gdp_mil_usd, fill = hdi, label = country)) +
   geom_treemap() +
